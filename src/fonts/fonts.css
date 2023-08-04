@@ -1,0 +1,24 @@
+/* fonts/fonts.css */
+@font-face {
+  font-family: 'Stardos';
+  src: url('./StardosStencil-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OswaldMedium';
+  src: url('./Oswald-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OswaldLight';
+  src: url('./Oswald-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OswaldBold';
+  src: url('./Oswald-Bold.ttf') format('truetype');
+}
