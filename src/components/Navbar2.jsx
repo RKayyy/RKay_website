@@ -3,6 +3,7 @@ import { Avatar } from "@mui/material";
 import Me from "../images/me.jpeg";
 import '../fonts/fonts.css'; 
 import { Link } from 'react-router-dom'; 
+import resume from "../assets/reitikakumar.pdf"
 
 
 const Navbar2 = () => {
@@ -12,9 +13,9 @@ const Navbar2 = () => {
     <div className="text-white">
       <header className="bg-[#15141A] pt-4 pb-4 w-full">
         <nav className="flex justify-between items-center w-[92%] mx-auto">
-          <div>
+        <a href={resume} target="_blank" rel="noreferrer" title="View Resume"><div>
             <Avatar alt="RKay" src={Me} className="border-2 border-white scale-[130%]" />
-          </div>
+          </div></a>
           <div
             className='sm:w-auto w-full flex items-center px-5'
           >

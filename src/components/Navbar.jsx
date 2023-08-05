@@ -5,6 +5,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close"; 
 import '../fonts/fonts.css'; 
 import { Link } from 'react-scroll'; 
+import resume from "../assets/reitikakumar.pdf"
 
 
 const Navbar = () => {
@@ -18,9 +19,9 @@ const Navbar = () => {
     <div className="text-white">
       <header className="bg-[#15141A] pt-4 pb-4 w-full">
         <nav className="flex justify-between items-center w-[92%] mx-auto">
-          <div>
+        <a href={resume} target="_blank" rel="noreferrer" title="View Resume"><div>
             <Avatar alt="RKay" src={Me} className="border-2 border-white scale-[130%]" />
-          </div>
+          </div></a>
           <div
             className={`nav-links duration-500 sm:static absolute  sm:min-h-fit min-h-[60vh] left-0 ${
               isMenuOpen ? "top-[12%] bg-white hover:text-gray-500 text-black" : "top-[-100%] "

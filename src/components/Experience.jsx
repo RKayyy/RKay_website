@@ -39,7 +39,7 @@ const Experience = () => {
               <p>-Designing the website using modern
           UI/UX principles and best practices.</p>
           <h1 className="text-s"> (Figma link: <a target="_blank" 
-    rel="noopener noreferrer" className="text-blue-300" href="https://www.figma.com/file/b1grHQTq5OrFeQUGJk7Bcr/LTN?type=design&node-id=0%3A1&mode=design&t=y5hzmucHsnzc93E6-1">https://www.figma.com/file/b1grHQTq5OrFeQUGJk7Bcr/LTN?type=design&node-id=0%3A1&mode=design&t=y5hzmucHsnzc93E6-1)</a></h1>
+    rel="noopener noreferrer" className="text-blue-300 text-[10px] lg:text-xl" href="https://www.figma.com/file/b1grHQTq5OrFeQUGJk7Bcr/LTN?type=design&node-id=0%3A1&mode=design&t=y5hzmucHsnzc93E6-1">https://www.figma.com/file/b1grHQTq5OrFeQUGJk7Bcr/LTN?type=design&node-id=0%3A1&mode=design&t=y5hzmucHsnzc93E6-1)</a></h1>
             </li>
             <li>
               <p>-Implemented the website design

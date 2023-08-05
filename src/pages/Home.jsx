@@ -10,6 +10,9 @@ import Experience from "../components/Experience";
 import Work from "../components/Work";
 import { useInView } from "react-intersection-observer"; 
 import "../index.css"
+import resume from "../assets/reitikakumar.pdf"
+
+
 
 const Home = () => {
 
@@ -159,6 +162,13 @@ const Home = () => {
       <br></br>
       <br></br>
       <h1 className="text-white text-center lg:text-xl text-sm"
+          style={{ fontFamily: "OswaldMedium" }}><a target="_blank" 
+          rel="noopener noreferrer" href={resume} className="text-blue-300 lg:text-5xl text-3xl">View Resume</a></h1>
+          <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <h1 className="text-white text-center lg:text-xl text-sm"
           style={{ fontFamily: "OswaldMedium" }}>LinkedIn: <a target="_blank" 
           rel="noopener noreferrer" href="https://www.linkedin.com/in/reitika-kumar" className="text-blue-300">https://www.linkedin.com/in/reitika-kumar</a></h1>
           <h1 className="text-white text-center lg:text-xl text-sm"
@@ -169,6 +179,8 @@ const Home = () => {
           rel="noopener noreferrer" href="https://www.instagram.com/waves_of_blue___" className="text-blue-300">https://www.instagram.com/waves_of_blue___</a></h1>
           <h1 className="text-white text-center lg:text-xl text-sm"
           style={{ fontFamily: "OswaldMedium" }}>Gmail: reitika.kumar@gmail.com</h1>
+          <br></br>
+          
 
 
 <br></br>

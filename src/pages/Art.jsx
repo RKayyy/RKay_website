@@ -12,6 +12,9 @@ const Art = () => {
   return (
     <div className='bg-[#15141A] flex flex-col justify-center text-white '>
         <Navbar2 />
+        <div className="flex justify-center">
+  <div className="h-[1px] w-[80%] bg-white"></div>
+</div>
         <br></br>
         <br></br>
         <div
