@@ -143,7 +143,7 @@ const Home = () => {
         id="experience-section"
         className={`fade-in-section ${
           aboutInView ? "fade-in" : "opacity-0"
-        } transition-opacity duration-1000`}>
+        } transition-opacity duration-500`}>
       <Experience />
       </div>
       <br></br>
@@ -154,7 +154,7 @@ const Home = () => {
         id="work-section"
         className={`fade-in-section ${
           aboutInView ? "fade-in" : "opacity-0"
-        } transition-opacity duration-1000`}>
+        } transition-opacity duration-500`}>
       <Work />
       </div>
       <br></br>
