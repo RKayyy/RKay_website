@@ -5,7 +5,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close"; 
 import '../fonts/fonts.css'; 
 import { Link } from 'react-scroll'; 
-import resume from "../assets/reitikakumar.pdf"
+import resume from "../assets/REITIKA_KUMAR_resume.pdf"
 
 
 const Navbar = () => {

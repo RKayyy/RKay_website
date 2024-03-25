@@ -3,7 +3,7 @@ import { Avatar } from "@mui/material";
 import Me from "../images/me.jpeg";
 import '../fonts/fonts.css'; 
 import { Link } from 'react-router-dom'; 
-import resume from "../assets/reitikakumar.pdf"
+import resume from "../assets/REITIKA_KUMAR_resume.pdf"
 
 
 const Navbar2 = () => {

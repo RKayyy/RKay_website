@@ -10,7 +10,7 @@ import Experience from "../components/Experience";
 import Work from "../components/Work";
 import { useInView } from "react-intersection-observer"; 
 import "../index.css"
-import resume from "../assets/reitikakumar.pdf"
+import resume from "../assets/REITIKA_KUMAR_resume.pdf"
 
 
 
